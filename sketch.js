@@ -23,15 +23,16 @@ let canvas;
 
 // Load the image.
 function preload() {
+
+
+}
+
+function setup() {
   imgWashMachine = loadImage("https://drive.usercontent.google.com/download?id=1Q0oARsnHwWWxT-3U3expupSgo-2udy7e");
   imgToilet = loadImage("https://drive.usercontent.google.com/download?id=1sS3COBKyc_nHiy02Jh3-YlUiKSrEReDX");
   imgShower = loadImage("https://drive.usercontent.google.com/download?id=1xxQFN2-lcH_KaNzReB_9MFHJT603SN57");
   imgTap = loadImage("https://drive.usercontent.google.com/download?id=1YX1v7fnGV3wKkNceFaIz1JzmP3y5JuEU");
   imgTub = loadImage("https://drive.usercontent.google.com/download?id=1fPwkl5ogUjhoKLTS3eWj9svix2fq99_y");
-
-}
-
-function setup() {
   canvas = createCanvas(512, 512);
 
   washMachineObject = {
