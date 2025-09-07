@@ -22,10 +22,10 @@ let imgWashMachine;
 let canvas;
 
 // Load the image.
-function preload() {
+//function preload() {
 
 
-}
+//}
 
 function setup() {
   imgWashMachine = loadImage("https://drive.usercontent.google.com/download?id=1Q0oARsnHwWWxT-3U3expupSgo-2udy7e");
