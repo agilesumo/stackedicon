@@ -28,7 +28,9 @@ let canvas;
 //}
 
 function setup() {
-  imgWashMachine = loadImage("https://drive.usercontent.google.com/download?id=1Q0oARsnHwWWxT-3U3expupSgo-2udy7e");
+  //imgWashMachine = loadImage("https://drive.usercontent.google.com/download?id=1Q0oARsnHwWWxT-3U3expupSgo-2udy7e");
+  imgWashMachine = loadImage("assets/washing_machine.png");
+
   imgToilet = loadImage("https://drive.usercontent.google.com/download?id=1sS3COBKyc_nHiy02Jh3-YlUiKSrEReDX");
   imgShower = loadImage("https://drive.usercontent.google.com/download?id=1xxQFN2-lcH_KaNzReB_9MFHJT603SN57");
   imgTap = loadImage("https://drive.usercontent.google.com/download?id=1YX1v7fnGV3wKkNceFaIz1JzmP3y5JuEU");
