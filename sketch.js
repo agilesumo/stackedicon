@@ -30,11 +30,11 @@ let canvas;
 function setup() {
   //imgWashMachine = loadImage("https://drive.usercontent.google.com/download?id=1Q0oARsnHwWWxT-3U3expupSgo-2udy7e");
   imgWashMachine = loadImage("assets/washing_machine.png");
+  imgTub = loadImage("assets/bathtub.png");
 
   imgToilet = loadImage("assets/toilet.png");
   imgShower = loadImage("assets/shower.png");
   imgTap = loadImage("assets/tap.png");
-  imgTub = loadImage("assets/bathtub.png");
   canvas = createCanvas(512, 512);
 
   washMachineObject = {
