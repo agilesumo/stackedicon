@@ -33,8 +33,8 @@ function setup() {
 
   imgToilet = loadImage("assets/toilet.png");
   imgShower = loadImage("assets/shower.png");
-  imgTap = loadImage("assets/tap.png.png");
-  imgTub = loadImage("assets/bathtub");
+  imgTap = loadImage("assets/tap.png");
+  imgTub = loadImage("assets/bathtub.png");
   canvas = createCanvas(512, 512);
 
   washMachineObject = {
